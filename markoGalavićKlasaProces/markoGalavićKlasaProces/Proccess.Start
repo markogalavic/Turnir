@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SysteM.Collections;
+
+namespace markoGalavićKlasaProces
+{
+    class Proccess
+    {
+	startinfo.WindowStyle;
+	startinfo.Argument;
+	Process.Start();
+	ProcessStartInfo startInfo = new ProcessStartInfo("IExplore.exe");
+    startInfo.WindowStyle = ProcessWindowStyle.Normal;
+    startInfo.Arguments = "www.sser.hr";
+    Process.Start(startInfo);
+    }
+}
